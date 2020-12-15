@@ -42,7 +42,7 @@ public static void deffieHellman(BigInteger p, BigInteger g, BigInteger x, BigIn
     }
 
     else {
-      System.out.print("No equal keys. Deffie-Hellman Secret Key Trade Successful");
+      System.out.print("No equal keys. Deffie-Hellman Secret Key Trade Not Successful");
     }
   }
 }
