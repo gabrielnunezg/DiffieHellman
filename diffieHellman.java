@@ -38,11 +38,11 @@ public static void deffieHellman(BigInteger p, BigInteger g, BigInteger x, BigIn
     int compareVal= k1.compareTo(k2);
     
     if(compareVal == 0) {
-      System.out.println("Deffie-Hellman secret key Encryption has Taken");
+      System.out.println("Equal Keys. Deffie-Hellman Secret Key Trade Successful");
     }
 
     else {
-      System.out.print("No equal keys. Trade Not Successful");
+      System.out.print("No equal keys. Deffie-Hellman Secret Key Trade Successful");
     }
   }
 }
